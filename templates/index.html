@@ -1,0 +1,32 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicGeneration</title>
+    <link rel="stylesheet" href = '{% static "css/my_css.css" %}'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id = "vantajs">
+        <div class = "container inner">
+            <h1 id = 'heading'>Music Generation using Deep Learning</h1>
+            <br>
+            <form method="post" id = 'music_form'>
+                {% csrf_token %}
+                <button type="submit">Generate Music</button>
+            </form>
+            <div class="lds-facebook"><div></div><div></div><div></div></div>
+        </div>
+    </div>
+
+    <script src = '{% static "js/three.r95.min.js" %}'></script>
+    <script src = '{% static "js/vanta.halo.min.js" %}'></script>
+    <script>
+        VANTA.HALO('#vantajs')
+    </script>
+    <script src = '{% static "js/my_js.js" %}'></script>
+</body>
+</html>
