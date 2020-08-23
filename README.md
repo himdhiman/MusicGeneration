@@ -61,4 +61,4 @@ go to Google Chrome and open http://127.0.0.1:8000
  
 Click on the Generate Music button to generate instrumental piano music. The output file will get downloaded as Output.mid. Use any music player to play the music.
 
-![](9.png)
+![](8.png)
