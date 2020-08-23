@@ -32,9 +32,10 @@ The model is able to generate good quality instrumental music.
     
     $ sudo apt-get install python3-pip
     
+    $ pip3 install -r requirements.txt
+    
 ![](5.png)
 
-    $ pip3 install -r requirements.txt
     
 ![](6.png)
     
