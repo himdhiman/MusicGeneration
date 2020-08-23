@@ -39,7 +39,6 @@ The model is able to generate good quality instrumental music.
     
 ![](6.png)
     
-get back to main directory by executing next command 2 times
 
 	  $ python3 manage.py runserver
 	  
