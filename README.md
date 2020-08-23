@@ -41,21 +41,18 @@ The model is able to generate good quality instrumental music.
     
 get back to main directory by executing next command 2 times
 
-	  $ cd ..
-
-	  $ cd ..
+	  $ python3 manage.py runserver
 	  
 ![](7.png)
     
 to launch server execute the following
-
-	  $ python3 manage.py runserver
+go to Google Chrome and open http://127.0.0.1:8000
+	  
 	  
 ![](8.png)
     
-go to Google Chrome and open http://127.0.0.1:8000
 
-![](9.png)
+
  
 ## Website Demo
  
