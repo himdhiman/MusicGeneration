@@ -49,7 +49,7 @@ get back to main directory by executing next command 2 times
     
 to launch server execute the following
 
-	  $ python3 anage.py runserver
+	  $ python3 manage.py runserver
 	  
 ![](8.png)
     
@@ -61,21 +61,4 @@ go to Google Chrome and open http://127.0.0.1:8000
  
 Click on the Generate Music button to generate instrumental piano music. The output file will get downloaded as Output.mid. Use any music player to play the music.
 
-![](Screenshots/11.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![](1.png)
-![](2.png)
-
+![](9.png)
